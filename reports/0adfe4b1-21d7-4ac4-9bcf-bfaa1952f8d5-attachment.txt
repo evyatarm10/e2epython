@@ -1,0 +1,9 @@
+ -------------------- update client test -------------------- 
+This is the right url: https://lh-crm.herokuapp.com/
+Clicked on element with xpath = //input[@value='Actions']
+This is the right url: https://lh-crm.herokuapp.com/actions
+Send Keys to element with css selector = input[list='names']
+Send Keys to element with css selector = input[list='owner']
+Clicked on element with css selector = input[value='Transfer']
+Get text from element with xpath = //div[contains(@class,'pop-up')]
+SOME DETAILS ARE MISSING

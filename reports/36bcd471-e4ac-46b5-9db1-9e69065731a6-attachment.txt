@@ -1,0 +1,8 @@
+ -------------------- update client - negative test -------------------- 
+This is the right url: https://lh-crm.herokuapp.com/
+Clicked on element with xpath = //input[@value='Actions']
+This is the right url: https://lh-crm.herokuapp.com/actions
+Got error while trying to send keys to element with css selector = input[list='names']
+Clicked on element with css selector = input[value='Sold']
+Get text from element with xpath = //div[contains(@class,'pop-up')]
+SOME DETAILS ARE MISSING
