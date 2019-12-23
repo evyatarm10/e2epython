@@ -21,7 +21,7 @@ class Test_client:
         if validation == f'The {search_by} is the same for all clients':
             print(validation)
             assert True
-        if validation == 'The client is not found':
+        elif validation == 'The client is not found':
             print(validation)
             assert True
         else:

@@ -1,8 +1,0 @@
-This is the right url: https://lh-crm.herokuapp.com/
-Clicked on element with xpath = //input[@value='Clients']
-This is the right url: https://lh-crm.herokuapp.com/client
-Clear text from element with xpath = //input[@type='text']
-Send Keys to element with xpath = //input[@type='text']
-Send Keys to element with xpath = //select[@class='select-css']
-Get text from element with xpath = //div[@class='page-numbers']
-The client is not found

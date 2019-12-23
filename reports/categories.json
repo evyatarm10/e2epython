@@ -6,7 +6,7 @@
   {
     "name": "Infrastructure problems",
     "matchedStatuses": ["broken", "failed"],
-    "messageRegex": ".*Infrastructure problems.*"
+    "messageRegex": ".*Infrastructure errors.*"
   },
   {
     "name": "Outdated tests",
@@ -14,7 +14,7 @@
     "traceRegex": ".*FileNotFoundException.*"
   },
   {
-    "name": "Product defects",
+    "name": "Test failed",
     "matchedStatuses": ["failed"]
   },
   {

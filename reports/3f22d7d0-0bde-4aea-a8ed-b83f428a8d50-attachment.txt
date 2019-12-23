@@ -3,7 +3,7 @@ Clicked on element with xpath = //input[@value='Analytics']
 This is the right url: https://lh-crm.herokuapp.com/analytics
 Send Keys to element with xpath = //div[@class ='employees-sales-by-country-chart']//ancestor::select
 Get text from element with xpath = //*[contains(@class,'recharts-pie-label-text')]//*[contains(text(),'Barton Ramirez')]
-21
+22
 Clicked on element with xpath = //input[@value='Actions']
 This is the right url: https://lh-crm.herokuapp.com/actions
 Send Keys to element with css selector = input[list='names']
@@ -15,4 +15,7 @@ This is the right url: https://lh-crm.herokuapp.com/analytics
 Send Keys to element with xpath = //div[@class ='employees-sales-by-country-chart']//ancestor::select
 Get text from element with xpath = //*[contains(@class,'recharts-pie-label-text')]//*[contains(text(),'Barton Ramirez')]
 22
-Validation succeeded: the number of sales of barton ramirez increased by 1. It was 21, and after the change it is 22
+Validation failed: the number of sales of barton ramirez didn't increase by 1. It was 22 and after the change it is: 22. Make sure to verify 3 Pre-Requisites:
+Client's country is France; 
+Client's owner is barton ramirez; 
+Client's "Sold" is "NO"

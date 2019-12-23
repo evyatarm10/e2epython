@@ -25,10 +25,10 @@ class Test_actions:
         if validation == f'The {search_by} is the same for all clients':
             print(validation)
             assert True
-        if validation == 'The client is not found':
+        elif validation == 'The client is not found':
             print(validation)
             assert True
-        elif validation == f'The {search_by} is NOT the same for all clients':
+        else:
             print(validation)
             assert False
 
